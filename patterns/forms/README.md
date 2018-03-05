@@ -1,0 +1,1 @@
+These forms are used to gather the customers personal information, personal choice of fashion, and whether they have purchased from this brand before. This information helps us to get a better knowledge of our customers.

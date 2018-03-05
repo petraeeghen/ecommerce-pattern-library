@@ -2,11 +2,26 @@
   --color-primary: #000;
   --color-secondary: #fff;
   --color-accent: #967fa9;
-  --color--whatever: #062733;
+  --color-whatever: #062733;
   --font-primary: "Oswald", sans-serif;
-  --fony-secondary: "Anton", sans-serif;
+  --font-secondary: "Anton", sans-serif;
+  --border-radius: 4px;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-primary);
+  font-family: var(--font-secondary:);
+}
+
+blockquote {
+
 }
