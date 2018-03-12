@@ -728,18 +728,35 @@
 
 </section>
 
-        <section class="pattern" id="buttons" role="tabpanel" hidden aria-hidden="true" >
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
+        <section class="pattern" id="buttons" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Buttons</h2>
-      <nav class="pattern-nav">
-        <ol class="list-group-inline push-1-4 pad-b-1-4">
-            <li><a href="#buttons--buttons">Buttons</a></li>
-            <li><a href="#buttons--index">Index</a></li>
-        </ol>
-      </nav>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-buttons-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="buttons/buttons" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/buttons/buttons.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
   </div>
 
-    <div class="pattern-desc milli island" >
+    <div class="pattern-desc milli island" style="">
       <div class="max-length"><p>The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:</p>
 <ul>
 <li>The regular buttons are for cards, forms and where the background is a light colour</li>
@@ -753,32 +770,6 @@
   
 
     <div class="pattern-details " id="buttons--buttons" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Buttons</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-buttons-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="buttons/buttons" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/buttons/buttons.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -810,173 +801,6 @@
               <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
 &lt;a class="btn btn-light" href="#">Light button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details " id="buttons--index" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Index</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-index-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="buttons/index" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/buttons/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/buttons/index.html" scrolling="no" data-inject-css=" " ></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-index-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-index-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              <code><pre id="buttons-index-code-sample-copy-chunk">&lt;svg hidden&gt;
-  &lt;symbol id="nav-icon" viewbox="0 0 256 256">
-    &lt;path d="M8.5 26.9h239v35.8H8.5zm0 83.7h239v35.8H8.5zm0 83.6h239V230H8.5z" />
-  &lt;/symbol>
-  &lt;symbol id="nav-icon-close" viewbox="0 0 256 256">
-    &lt;path d="M199.776 226.088L30.779 57.091l25.385-25.385 168.997 168.997zm25.426-168.767L56.205 226.318 30.82 200.933 199.817 31.936z" />
-  &lt;/symbol>
-  &lt;symbol id="icon-pop-out" viewbox="0 0 256 256">
-    &lt;polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" points="87 21 234 21 234 168" />
-    &lt;line x1="173" x2="173" y1="81" y2="81" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-    &lt;line x1="145.1" x2="47.5" y1="108.9" y2="206.6" fill="none" stroke-dasharray="0 39.46" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-    &lt;line x1="33.5" x2="33.5" y1="220.5" y2="220.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-  &lt;/symbol>
-  &lt;symbol id="icon-resize-handle" viewbox="0 0 256 256">
-    &lt;line x1="128" x2="128" y1="18.8" y2="237.2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-    &lt;line x1="66.7" x2="66.7" y1="18.8" y2="237.2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-    &lt;line x1="189.3" x2="189.3" y1="18.8" y2="237.2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
-  &lt;/symbol>
-  &lt;symbol id="icon-code" viewbox="0 0 256 256">
-    &lt;path stroke-width="6" d="M80.6 74.6c-2-1-4.4-1-6.2.4l-63.7 44.5c-1.6 1-2.7 3-2.7 4.8v5.6c0 1.8 1 3.6 2.6 4.7L74 179.2c1 .7 2.3 1 3.5 1 1 0 2 0 3-.6 2-1 3.4-3 3.4-5.2V168c0-1.8-1.3-3.6-2.8-4.7L29.5 127l51.7-36c1.6-1.2 2.7-3 2.7-5V80c0-2.2-1.5-4.2-3.4-5.2zM159.2 52h-6c-2.4 0-4.6 1.3-5.5 3.6L90.5 208c-.7 1.8-.4 4 .7 5.4 1 1.6 3 2.6 4.8 2.6h6c2.5 0 4.6-1.6 5.5-4l57.2-152.5c.7-1.8.4-3.6-.7-5.2-1-1.6-3-2.3-4.8-2.3zM247.4 119.5L183.8 75c-1.8-1.3-4.4-1.4-6.4-.4-2 1-3.4 3-3.4 5.2V86c0 2 1.2 3.8 2.7 5l51.7 36-51.7 36.3c-1.6 1-2.7 3-2.7 4.8v6.4c0 2.2 1.5 4.2 3.4 5.2 1 .4 2 .7 2.8.7 1.2 0 2.4-.4 3.4-1l63.7-44.6c1.6-1 2.7-3 2.7-4.8v-5.7c0-2-1-3.7-2.6-4.8z" />
-  &lt;/symbol>
-  &lt;symbol id="icon-copy" viewbox="0 0 256 256">
-    &lt;rect width="125.7" height="27.83" x="65.2" y="175" />
-    &lt;rect width="125.7" height="27.83" x="65.2" y="117.8" />
-    &lt;polygon points="82.9 10 82.9 66.8 107.1 66.8 148.9 66.8 173.1 66.8 173.1 10 82.9 10" />
-    &lt;rect width="219.8" height="207.33" x="18.1" y="38.7" fill="none" stroke-miterlimit="10" stroke-width="20" rx="18.8" ry="18.8" />
-  &lt;/symbol>
-  &lt;symbol id="icon-active" viewbox="0 0 256 256">
-    &lt;polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" points="126 24.1 230 128 126 231.9" />
-  &lt;/symbol>
-  &lt;symbol id="patternbot-iframe-loading-gears-double" viewbox="0 0 256 256">
-    &lt;path class="patternbot-iframe-loading-gears-top" d="M151.3 86.9a51.3 51.3 0 0 0 .2-6.1 51.3 51.3 0 0 0-.2-6.1l-12-.9a57.9 57.9 0 0 0-4.3-15.9l9.9-6.8a59.2 59.2 0 0 0-6.1-10.6l-10.9 5a59.6 59.6 0 0 0-11.6-11.6l5.3-10.9a59.2 59.2 0 0 0-10.6-6.2l-7.1 9.7a60.2 60.2 0 0 0-15.8-4.2l-.9-12a57.5 57.5 0 0 0-6.4-.2 51.3 51.3 0 0 0-6.1.2l-.9 12A57.9 57.9 0 0 0 58 26.5l-7-9.7A59.2 59.2 0 0 0 40.4 23l5 10.9a68.4 68.4 0 0 0-11.8 11.5l-10.6-5A59.2 59.2 0 0 0 16.8 51l9.7 6.8a59.5 59.5 0 0 0-4.2 16l-11.8.9a23 23 0 0 0-.5 5.9 51.3 51.3 0 0 0 .2 6.1l11.8.9a59.5 59.5 0 0 0 4.2 16l-9.7 6.8a59.2 59.2 0 0 0 6.1 10.6l10.6-5A54.8 54.8 0 0 0 45 127.6l-5 10.9a59.2 59.2 0 0 0 10.6 6.1l6.8-9.7a60.2 60.2 0 0 0 15.8 4.2l.9 12h6.4a51.3 51.3 0 0 0 6.1-.2l.9-12a60.2 60.2 0 0 0 15.8-4.2l6.8 9.9a59.2 59.2 0 0 0 10.6-6.1l-5-11.1a53.7 53.7 0 0 0 11.6-11.6l10.9 5.2a59.2 59.2 0 0 0 6.1-10.6l-9.7-6.8a60.2 60.2 0 0 0 4.2-15.8zm-70.5 29.3a35.4 35.4 0 1 1 35.4-35.4 35.3 35.3 0 0 1-35.4 35.4z" />
-    &lt;path class="patternbot-iframe-loading-gears-bottom" d="M242.8 200.6a51.3 51.3 0 0 0 1.8-5.9 51.3 51.3 0 0 0 1.4-6l-11.4-4a57.9 57.9 0 0 0 0-16.4l11.3-4a59.2 59.2 0 0 0-3.2-11.8l-11.8 2a59.6 59.6 0 0 0-8.1-14.2l7.8-9.1a59.2 59.2 0 0 0-8.7-8.7l-9.4 7.5a60.2 60.2 0 0 0-14.2-8.2l2.2-11.9a57.5 57.5 0 0 0-6.1-1.9 51.3 51.3 0 0 0-6-1.4l-4 11.4a57.9 57.9 0 0 0-16.4 0l-4.1-11.1a59.2 59.2 0 0 0-11.8 3.2l2 11.8a68.4 68.4 0 0 0-14.4 8.1l-9-7.5a59.2 59.2 0 0 0-8.7 8.7l7.6 9.1a59.5 59.5 0 0 0-8.3 14.4l-11.3-2.4a23 23 0 0 0-2 5.6 51.3 51.3 0 0 0-1.4 6l11.1 4a59.5 59.5 0 0 0-.1 16.6l-11.1 4.1a59.2 59.2 0 0 0 3.2 11.8l11.5-2a54.8 54.8 0 0 0 8.4 14.2l-7.6 9.2a59.2 59.2 0 0 0 8.7 8.7l9.1-7.6a60.2 60.2 0 0 0 14.2 8.2l-2.3 11.9 6.1 1.7a51.3 51.3 0 0 0 6 1.4l4-11.4a60.2 60.2 0 0 0 16.4 0l4 11.3a59.2 59.2 0 0 0 11.8-3.2l-1.9-12a53.7 53.7 0 0 0 14.2-8.1l9.1 7.8a59.2 59.2 0 0 0 8.7-8.7l-7.6-9.1a60.2 60.2 0 0 0 8.2-14.2zm-75.7 9.9a35.4 35.4 0 1 1 43.4-24.9 35.3 35.3 0 0 1-43.4 24.9z" />
-  &lt;/symbol>
-  &lt;symbol id="patternbot-iframe-loading-gears" viewbox="0 0 256 256">
-    &lt;path class="patternbot-iframe-loading-gears-single" d="M107.2 11.3a8.6 8.6 0 0 0-7.6 6.4l-4.2 23.2a95.8 95.8 0 0 0-24.8 13.9l-21.9-8.5a8.1 8.1 0 0 0-9.5 3.3L17.6 85a7.9 7.9 0 0 0 1.5 9.8l17.4 15.5a87.9 87.9 0 0 0 0 35.4l-17.4 15.4a8.1 8.1 0 0 0-1.5 9.9l21.6 35.4a8.1 8.1 0 0 0 9.5 3.2l21.9-8.4A95.5 95.5 0 0 0 95.4 215l4.2 23.3a8.2 8.2 0 0 0 7.6 6.4h41.5a8.1 8.1 0 0 0 7.7-6.4l4.2-23.3a93.9 93.9 0 0 0 24.8-13.8l22 8.4a8 8 0 0 0 9.4-3.2l21.6-35.4a8.1 8.1 0 0 0-1.5-9.9l-17.4-15.5a93.8 93.8 0 0 0 1.8-17.6 94.9 94.9 0 0 0-1.8-17.7l17.4-15.5a7.9 7.9 0 0 0 1.5-9.8l-21.6-35.4a8.2 8.2 0 0 0-9.4-3.3l-22 8.5a92.7 92.7 0 0 0-24.8-13.9l-4.2-23.2a8.1 8.1 0 0 0-7.7-6.4zM128 83a45 45 0 1 1-45 45 44.9 44.9 0 0 1 45-45z" />
-  &lt;/symbol>
-&lt;/svg>
-
-&lt;div class="wrapper">
-
-  &lt;header class="masthead-s">
-    &lt;button class="nav-btn" aria-controls="nav" aria-expanded="false" aria-label="Open nav">
-      &lt;svg class="nav-icon-open">&lt;use xlink:href="#nav-icon" />&lt;/svg>
-      &lt;svg class="nav-icon-close">&lt;use xlink:href="#nav-icon-close" />&lt;/svg>
-    &lt;/button>
-    &lt;h1 class="kilo pad-t-1-8 pad-b-1-8 push-0" style="color:;">
-          Pattern Library
-      &lt;/h1>
-  &lt;/header>
-
-  &lt;header class="masthead-m" aria-hidden="true" id="nav">
-    &lt;h1 class="tera gutter pad-t pad-b push-0" style="color:;">
-          Pattern Library
-      &lt;/h1>
-    &lt;hr>
-    &lt;h2 class="italic kilo normal gutter push-1-2">Patterns&lt;/h2>
-    &lt;nav class="nav mega">
-      &lt;ul class="list-group" role="tablist">
-        &lt;li role="presentation">
-          &lt;a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="brand" href="#brand">
-            &lt;div class="relative">
-              &lt;span>Brand&lt;/span>
-              &lt;i class="icon i-18 absolute pin-cr">
-                  &lt;svg>&lt;use xlink:href="#icon-active"/>&lt;/svg>
-                &lt;/i>
-            &lt;/div>
-          &lt;/a>
-        &lt;/li>
-        &lt;li class="pad-t-1-2" role="presentation">
-          &lt;button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
-            &lt;span class="nav-show-all-wrap relative block">Show all&lt;/span>
-          &lt;/button>
-        &lt;/li>
-      &lt;/ul>
-    &lt;/nav>
-  &lt;/header>
-
-  &lt;main class="main">
-    &lt;section class="pattern" id="brand" role="tabpanel" hidden aria-hidden="true">
-      &lt;div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
-        &lt;h2 class="pattern-name exa push-1-4" style="color:;">Brand&lt;/h2>
-        &lt;ul class="list-group-inline gutter absolute pin-cr">
-        &lt;/ul>
-      &lt;/div>
-
-
-
-
-      &lt;div class="pattern-details " id="brand--logos">
-
-        &lt;div class="pattern-examples pad-t-1-2 pad-b-1-2">
-          &lt;div class="gutter pad-t-1-2 pad-b-1-2">
-            &lt;div class="resizeable-pattern relative">
-              &lt;i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c">&lt;svg>&lt;use xlink:href="#patternbot-iframe-loading-gears"/>&lt;/svg>&lt;/i>
-              &lt;iframe data-src="patterns/brand/1-logos.html" scrolling="no">&lt;/iframe>
-            &lt;/div>
-          &lt;/div>
-
-        &lt;/div>
-      &lt;/div>
-
-    &lt;/section>
-
-  &lt;/main>
-
-&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1150,21 +974,21 @@
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Footer</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="footer--code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="footer-footer-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="footer/" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="footer/footer" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/footer/footer.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -1176,6 +1000,70 @@
 
   
 
+    <div class="pattern-details " id="footer--footer" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/footer/footer.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="footer-footer-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#footer-footer-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="footer-footer-code-sample-copy-chunk">&lt;footer class="footer gutter-1-2" role="contentinfo" tabindex="0"&gt;
+
+  &lt;div class="unit xs-1 s-1 m-1 l-1-3 push text-center">
+    &lt;div class="facebook-icon inline">
+      &lt;a class="gutter-1-2 social" href="#">
+          &lt;i class="icon icon-footer i-32">
+            &lt;svg>&lt;use class="facebook" xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="twitter-icon inline">
+      &lt;a class="gutter-1-2 social" href="#">
+          &lt;i class="icon icon-footer i-48">
+            &lt;svg>&lt;use class="twitter" xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/div>
+    &lt;div class="instagram-icon inline">
+      &lt;a class="gutter-1-2 social" href="#">
+          &lt;i class="icon icon-footer i-48">
+            &lt;svg>&lt;use class="instagram" xlink:href="images/instagram-logo.svg"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/div>
+
+    &lt;div class="wrapper">
+      &lt;small class="micro">&#xA9; ARTEP . All Rights Reserved.&lt;/small>
+    &lt;/div>
+  &lt;/div>
+&lt;/footer>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 
@@ -1574,21 +1462,21 @@
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Header</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="header--code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="header-header-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="header/" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="header/header" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/header/header.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -1597,9 +1485,59 @@
         </ul>
   </div>
 
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>This is the main header for the Artepual website.</p>
+</div>
+    </div>
 
   
 
+    <div class="pattern-details " id="header--header" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/header/header.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="header-header-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#header-header-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;h1&gt;ARTEP&lt;/h1>
+
+&lt;nav class="nav" role="navigation" id="nav" tabindex="0">
+  &lt;div class="wrapper gutter-1-2">
+    &lt;ol class="mega list-group-inline push-0">
+      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 btn" href="index.html">Home&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 btn" href="#aboutus">About Us&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 btn" href="#shop">Shop&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 btn" href="#contact">Contact&lt;/a>&lt;/li>
+    &lt;/ol>
+  &lt;/div>
+&lt;/nav>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 
