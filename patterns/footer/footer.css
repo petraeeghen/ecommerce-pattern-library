@@ -1,0 +1,22 @@
+.footerlink {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footerlink:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-accent);
+  transition: all 250ms ease;
+}
+
+.copyright {
+  color: var(--color-secondary);
+}
+
+.footer {
+  background-color: var(--color-primary);
+}

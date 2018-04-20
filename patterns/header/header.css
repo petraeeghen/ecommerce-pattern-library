@@ -22,6 +22,7 @@ nav ol .selection {
   border-color: var(--color-primary);
   color: var(--color-primary);
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -62,6 +63,7 @@ nav {
   float: right;
 }
 
-ol {
-
+h1 {
+  color: var(--color-secondary);
+  float: left;
 }
