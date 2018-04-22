@@ -139,6 +139,16 @@
               </a>
             </li>
               <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="banners" href="#banners">
+                  <div class="relative">
+                    <span>Banners</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li role="presentation">
                 <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="buttons" href="#buttons">
                   <div class="relative">
                     <span>Buttons</span>
@@ -770,6 +780,90 @@
 
 </section>
 
+        <section class="pattern" id="banners" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Banners</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banners-bannershome-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banners/bannershome" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banners/bannershome.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The bannerhome is the first visual a visitor of the website sees on the ARTEPUAL site. The purpose of this banner is to intrigue viewers into engaging with the site. This banner is to be use directly underneath the header/main navigation.</p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details " id="banners--bannershome" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/banners/bannershome.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="banners-bannershome-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#banners-bannershome-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="banners-bannershome-code-sample-copy-chunk">&lt;div class="banner"&gt;
+  &lt;a href="#">
+      &lt;img class="img-flex" src="../../images/banner1.jpg" alt="">
+      &lt;div class="banner-content max-length">
+        &lt;div class="text-center island-2">
+          &lt;h2 class="yotta push-none">Thrifted Transformations&lt;/h2>
+          &lt;p class="tera gutter-1-2">Start Browsing!&lt;/p>
+        &lt;/div>
+      &lt;/div>
+    &lt;/a>
+
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons" role="tabpanel" hidden aria-hidden="true" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Buttons</h2>
@@ -897,7 +991,7 @@
             </ul>
         </div>
           <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The basic cards are to be used for information only. It can contain a button but should not be a link itself.</p>
+            <div class="max-length"><p>The basic cards are to be used for promoting links to categories of clothing sold on the ARTEPUAL site.</p>
 </div>
           </div>
 
@@ -928,9 +1022,16 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-basic-card-code-sample-copy-chunk">&lt;div class="card island-1-2"&gt;
-  &lt;h2 class="push-1-4">This is a card&lt;/h2>
-  &lt;p class="push-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+              <code><pre id="cards-basic-card-code-sample-copy-chunk">&lt;div class="basic-card"&gt;
+  &lt;a class="icon-link block island-1-2 pad-t pad-b text-center" href="#">
+    &lt;div class="card-content">
+      &lt;i class="icon i-64 card-icon push-1-2">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#jacket"/>&lt;/svg>
+        &lt;/i>
+      &lt;h3 class="card-title push-0 mega">JACKETS&lt;/h3>
+      &lt;p class="push-0">From Denim jackets to Leather Bombers&lt;/p>
+    &lt;/div>
+  &lt;/a>
 &lt;/div>
 </pre></code>
             </div>
@@ -965,7 +1066,7 @@
             </ul>
         </div>
           <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The icon cards are used for call-to-actions on the homepage or highlights on inside pages.</p>
+            <div class="max-length"><p>These cards are to be used to display each garment of clothing. These cards link to each garment of clothing where the customer can then purchase them.</p>
 </div>
           </div>
 
@@ -996,12 +1097,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="card island-1-2 text-center"&gt;
-  &lt;i class="icon i-128 push-1-2">
-      &lt;svg>&lt;use xlink:href="../../images/icons.svg#logo-twittericons-"/>&lt;/svg>
-    &lt;/i>
-  &lt;h2 class="push-1-4">This is a card&lt;/h2>
-  &lt;p class="push-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+              <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="basic-card island-1-2 text-center"&gt;
+  &lt;a href="#">
+      &lt;img src="../../images/pic-3.jpg" alt="">
+      &lt;h3 class="push-1-4">Artep Jacket&lt;/h3>
+      &lt;p class="push-0">This ARTEPUAL jacket was made with thrifted materials and hand-painted illustraions.&lt;/p>
+    &lt;/a>
 &lt;/div>
 </pre></code>
             </div>
@@ -1506,9 +1607,9 @@
 
 </section>
 
-        <section class="pattern" id="header" role="tabpanel" hidden aria-hidden="true" style="background-color:#000; color:rgba(255,255,255,.9);">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="border-color:rgba(255,255,255,.1); color:rgba(255,255,255,.9);">
-    <h2 class="pattern-name exa push-1-4" style=" font-family: &quot;Anton&quot;, sans-serif;">Header</h2>
+        <section class="pattern" id="header" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Anton&quot;, sans-serif;">Header</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
               <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="header-header-code-sample">
@@ -1534,27 +1635,27 @@
         </ul>
   </div>
 
-    <div class="pattern-desc milli island" style="border-color:rgba(255,255,255,.05); color:rgba(255,255,255,.9);">
+    <div class="pattern-desc milli island" style="">
       <div class="max-length"><p>This is the main header for the Artepual website. Use this at the beginning of your webpage.</p>
 </div>
     </div>
 
   
 
-    <div class="pattern-details pattern-details-has-bg" id="header--header" style="background-color:#000;">
+    <div class="pattern-details " id="header--header" style="">
 
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="color:rgb(255,255,255);">
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/header/header.html" scrolling="no" data-inject-css=":root { --color-patternbot-interface:255; --color-patternbot-interface-opposite:0; --color-patternbot-background:#000; } " ></iframe>
+            <iframe data-src="patterns/header/header.html" scrolling="no" data-inject-css=" " ></iframe>
               <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="border-color:rgba(255,255,255,.1); color:rgba(255,255,255,.3);">
+                <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
                     <svg><use xlink:href="#icon-resize-handle" /></svg>
                   </i>
                 </div>
-                <div class="resize-handle resize-handle-right" style="border-color:rgba(255,255,255,.1); color:rgba(255,255,255,.3);">
+                <div class="resize-handle resize-handle-right" style="">
                   <i class="icon i-18">
                     <svg><use xlink:href="#icon-resize-handle" /></svg>
                   </i>
@@ -1564,24 +1665,27 @@
         </div>
 
           <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="header-header-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="border-color:rgba(255,255,255,.05); color:rgba(255,255,255,.9);">
+            <div class="pattern-code relative milli island-1-2" style="">
               <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#header-header-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="header-header-code-sample-copy-chunk">&lt;h1 class="nina"&gt;ARTEPUAL&lt;/h1>
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;header class="masthead push-1-2" role="banner"&gt;
 
-&lt;nav class="nav pad-t-1-2" role="navigation" id="nav" tabindex="0">
-  &lt;div class="wrapper gutter-1-2">
-    &lt;ol class="mega list-group-inline push-0">
-      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="index.html">Home&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#aboutus">About Us&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#shop">Shop&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#contact">Contact&lt;/a>&lt;/li>
-    &lt;/ol>
-  &lt;/div>
-&lt;/nav>
+  &lt;h1 class="nina">ARTEPUAL&lt;/h1>
+
+  &lt;nav class="nav pad-t-1-2" role="navigation" id="nav" tabindex="0">
+    &lt;div class="wrapper gutter-1-2">
+      &lt;ol class="mega list-group-inline push-0">
+        &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="index.html">Home&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#aboutus">About Us&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#shop">Shop&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="ib gutter-1-2 pad-t-1-4 pad-b-1-4 btn" href="#contact">Contact&lt;/a>&lt;/li>
+      &lt;/ol>
+    &lt;/div>
+  &lt;/nav>
+&lt;/header>
 </pre></code>
             </div>
           </div>

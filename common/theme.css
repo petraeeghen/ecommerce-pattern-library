@@ -19,5 +19,14 @@ h1 {
 
 a {
   color: var(--color-primary);
-  font-family: var(--font-secondary:);
+  font-family: var(--font-secondary);
+  text-decoration: none;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+}
+
+p {
+  font-family: var(--font-primary);
 }

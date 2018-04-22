@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 08d8fdb091b0751e5b7250ce878f1864e9ea875d
+ * @version 79482d2ab52d58ca43801fcc43b324254914b090
  */
-const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
+const patternManifest_79482d2ab52d58ca43801fcc43b324254914b090 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -602,10 +602,9 @@ const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
       "bodyBasic": ""
     },
     "icons": [
-      "logo",
-      "logo-64",
-      "logo-16",
-      "logo-32"
+      "jacket",
+      "shirt",
+      "sweater"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -633,6 +632,7 @@ const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
       "sizeLargeLocal": "logo.svg"
     },
     "patterns": [
+      "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners",
       "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
       "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/footer",
@@ -645,6 +645,40 @@ const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
     "js": []
   },
   "userPatterns": [
+    {
+      "name": "banners",
+      "namePretty": "Banners",
+      "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners",
+      "html": [
+        {
+          "name": "bannershome",
+          "namePretty": "Bannershome",
+          "filename": "bannershome",
+          "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/bannershome.html",
+          "localPath": "patterns/banners/bannershome.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/README.md",
+          "localPath": "patterns/banners/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "banners",
+          "namePretty": "Banners",
+          "filename": "banners",
+          "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/banners.css",
+          "localPath": "patterns/banners/banners.css"
+        }
+      ],
+      "js": []
+    },
     {
       "name": "buttons",
       "namePretty": "Buttons",
@@ -825,15 +859,7 @@ const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
           "namePretty": "Header",
           "filename": "header",
           "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/header/header.html",
-          "localPath": "patterns/header/header.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#000",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/header/header.html"
         }
       ],
       "md": [
@@ -958,5 +984,5 @@ const patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d = {
   }
 };
 
-patternBotIncludes(patternManifest_08d8fdb091b0751e5b7250ce878f1864e9ea875d);
+patternBotIncludes(patternManifest_79482d2ab52d58ca43801fcc43b324254914b090);
 }());

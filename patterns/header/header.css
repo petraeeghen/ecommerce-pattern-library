@@ -1,14 +1,20 @@
+.masthead {
+  border-bottom: .2em solid;
+  border-top: .5em solid;
+  text-align: center;
+}
+
 .nav ol{
   position: relative;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   z-index: 2;
-  color: #fff;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 .nav ol:hover {
-  background-color: var(--color-primary);
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 nav ol .selection {
@@ -64,6 +70,17 @@ nav {
 }
 
 h1 {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   float: left;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 }

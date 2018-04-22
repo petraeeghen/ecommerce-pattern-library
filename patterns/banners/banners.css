@@ -1,0 +1,18 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.banner-content:hover {
+  color: var(--color-secondary);
+}

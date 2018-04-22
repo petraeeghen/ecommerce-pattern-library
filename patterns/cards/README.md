@@ -1,10 +1,10 @@
 ---
 
 basic-card: |
-  The basic cards are to be used for information only. It can contain a button but should not be a link itself.
+  The basic cards are to be used for promoting links to categories of clothing sold on the ARTEPUAL site.
 
 icon-card: |
-  The icon cards are used for call-to-actions on the homepage or highlights on inside pages.
+  These cards are to be used to display each garment of clothing. These cards link to each garment of clothing where the customer can then purchase them.
 
 ---
 
