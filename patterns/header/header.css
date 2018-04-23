@@ -74,6 +74,10 @@ h1 {
   float: left;
 }
 
+.nav-div {
+  color: white;
+}
+
 @media only screen and (min-width: 38em) {
 
   .masthead {

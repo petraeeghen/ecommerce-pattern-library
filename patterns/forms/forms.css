@@ -7,11 +7,11 @@ input[type="radio"] + label::before {
   border-radius: 5px;
 }
 
-textarea,
+/* textarea,
 select,
 input {
   min-width: 20rem;
-}
+} */
 
 fieldset {
   border: 0;

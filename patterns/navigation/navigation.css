@@ -1,13 +1,11 @@
 .nav ol{
   position: relative;
-  background-color: var(--color-primary);
   z-index: 2;
   color: #fff;
   text-decoration: none;
 }
 
 .nav ol:hover {
-  background-color: var(--color-primary);
   color: #fff;
 }
 
