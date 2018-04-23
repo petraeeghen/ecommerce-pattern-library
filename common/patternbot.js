@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 79482d2ab52d58ca43801fcc43b324254914b090
+ * @version f09bead5420bdc450dd75d7dd41c4e365edd1e43
  */
-const patternManifest_79482d2ab52d58ca43801fcc43b324254914b090 = {
+const patternManifest_f09bead5420bdc450dd75d7dd41c4e365edd1e43 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,7 +641,23 @@ const patternManifest_79482d2ab52d58ca43801fcc43b324254914b090 = {
       "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigation",
       "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections"
     ],
-    "pages": [],
+    "pages": [
+      {
+        "name": "checkout.html",
+        "namePretty": "Checkout",
+        "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/checkout.html"
+      },
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "productlist.html",
+        "namePretty": "Productlist",
+        "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/productlist.html"
+      }
+    ],
     "js": []
   },
   "userPatterns": [
@@ -936,6 +952,13 @@ const patternManifest_79482d2ab52d58ca43801fcc43b324254914b090 = {
       "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
+          "name": "introsection",
+          "namePretty": "Introsection",
+          "filename": "introsection",
+          "path": "/Users/petravaneeghen/Documents/Documents - Petra’s MacBook Pro 2017/Semester 2/Semester 3/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/introsection.html",
+          "localPath": "patterns/sections/introsection.html"
+        },
+        {
           "name": "section",
           "namePretty": "Section",
           "filename": "section",
@@ -984,5 +1007,5 @@ const patternManifest_79482d2ab52d58ca43801fcc43b324254914b090 = {
   }
 };
 
-patternBotIncludes(patternManifest_79482d2ab52d58ca43801fcc43b324254914b090);
+patternBotIncludes(patternManifest_f09bead5420bdc450dd75d7dd41c4e365edd1e43);
 }());

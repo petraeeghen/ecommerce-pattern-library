@@ -30,3 +30,11 @@ h3 {
 p {
   font-family: var(--font-primary);
 }
+
+.btn {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 5px;
+  text-decoration: none;
+}
